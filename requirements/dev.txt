@@ -1,0 +1,4 @@
+-r base.txt
+pytest-django
+factory-boy
+django-extensions

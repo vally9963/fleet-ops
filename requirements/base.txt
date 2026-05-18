@@ -1,0 +1,16 @@
+# 1단계
+Django>=4.2
+psycopg2-binary
+
+# 2단계
+celery[redis]>=5.3
+django-celery-beat
+django-celery-results
+
+# 3단계
+channels>=4.0
+channels-redis
+daphne
+
+# 4단계
+ray>=2.9

@@ -1,0 +1,35 @@
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+
+# 환경 설정
+.env
+.env.local
+.env.*.local
+
+# 데이터베이스
+*.sqlite3
+
+# IDE
+.idea/
+.vscode/
+*.swp
+*.swo
+
+# 가상환경
+venv/
+.venv/
+env/
+
+# 로그
+*.log
+
+# Django
+staticfiles/
+media/
+
+# 빌드/배포
+*.egg-info/
+dist/
+build/
